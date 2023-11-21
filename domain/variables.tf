@@ -13,3 +13,8 @@ variable "credentials_file" {
     description = "Path to the credentials file"
     type = string
 }
+
+variable "bucket_name" {
+    description = "Name of the bucket"
+    type = string
+}

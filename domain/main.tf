@@ -17,7 +17,7 @@
 
 
 resource "google_storage_bucket" "bucket" {
-  name          = local.bucket_name
+  name          = var.bucket_name
   location      = var.region
   force_destroy = true
 
